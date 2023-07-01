@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -26,7 +29,9 @@ main section{
 
 body {
     background-color: #f7f7f2;
-    color: rgb(0, 132, 255)
+    color: rgb(0, 132, 255);
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -40,29 +45,37 @@ nav a:hover {
 
 .book, .join {
     background-color: white;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30 px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
     background-color: rgb(255, 255, 253);
-    color: #f7f7f2;
+    color: #000000;
 }
  
 #background {
     background-color: rgb(255, 255, 255);
-    color: #f7f7f2;
+    color: #000000;
 }
 
 .msg {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     color: #000000;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: grey;
     color: #808080;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -82,6 +95,7 @@ footer p a:hover{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -90,4 +104,42 @@ footer p a:hover{
 
 .logo {
     width: 80px;
+}
+
+.home-title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #000000 
+}
+
+main section img {
+    box-sizing: border box;
 }
